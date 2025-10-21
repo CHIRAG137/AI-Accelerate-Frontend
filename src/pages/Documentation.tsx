@@ -181,7 +181,7 @@ export default function Documentation() {
     : '';
 
   const basicEmbedCode = `<!-- Basic Embed Code (Shows on All Pages) -->
-<script src="https://tastebot-studio-backend-gvvb.onrender.com/widget.js"></script>
+<script src="https://ai-accelerate-backend.onrender.com/widget.js"></script>
 <script>
   ChatBotWidget.init({
     botId: "${botId}",
@@ -191,7 +191,7 @@ export default function Documentation() {
 </script>`;
 
   const restrictedEmbedCode = hasSelectedUrls ? `<!-- Restricted Embed Code (Shows Only on Selected Pages) -->
-<script src="https://tastebot-studio-backend-gvvb.onrender.com/widget.js"></script>
+<script src="https://ai-accelerate-backend.onrender.com/widget.js"></script>
 <script>
   ChatBotWidget.init({
     botId: "${botId}",
