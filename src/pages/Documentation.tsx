@@ -185,7 +185,7 @@ export default function Documentation() {
 <script>
   ChatBotWidget.init({
     botId: "${botId}",
-    apiUrl: "https://tastebot-studio.onrender.com",
+    apiUrl: "https://ai-accelerate-frontend.onrender.com",
     position: "bottom-right",
   });
 </script>`;
@@ -195,7 +195,7 @@ export default function Documentation() {
 <script>
   ChatBotWidget.init({
     botId: "${botId}",
-    apiUrl: "https://tastebot-studio.onrender.com",
+    apiUrl: "https://ai-accelerate-frontend.onrender.com",
     position: "bottom-right",
     allowedPages: [
       ${allowedPagesArray}
@@ -537,7 +537,7 @@ export default function Documentation() {
               <pre className="bg-muted p-4 rounded-lg overflow-x-auto text-xs">
                 <code>{`ChatBotWidget.init({
   botId: "${botId}",
-  apiUrl: "https://tastebot-studio.onrender.com",
+  apiUrl: "https://ai-accelerate-frontend.onrender.com",
   position: "bottom-right",
   allowedPages: [
     "/products/*",  // All product pages
@@ -552,7 +552,7 @@ export default function Documentation() {
               <pre className="bg-muted p-4 rounded-lg overflow-x-auto text-xs">
                 <code>{`ChatBotWidget.init({
   botId: "${botId}",
-  apiUrl: "https://tastebot-studio.onrender.com",
+  apiUrl: "https://ai-accelerate-frontend.onrender.com",
   position: "bottom-right",
   allowedPages: [
     "/",           // Homepage
